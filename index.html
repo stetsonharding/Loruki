@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" c
-    rossorigin="anonymous" />
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <Link rel="stylesheet" href="css/utilities.css">
     <Link rel="stylesheet" href="css/styles.css">
     <title>Loruki | Cloud Hosting For Everyone</title>
 </head>
@@ -42,7 +42,7 @@
             <h2>Request a Demo</h2>
             <form>
                 <div class="form-control">
-                    <input required type="text" name="name" placeholder="name" class="type">
+                    <input type="text" name="name" placeholder="name" class="type" required>
                 </div>
                 <div class="form-control">
                     <input required type="text" name="Company" placeholder="Company Name" class="type">
@@ -52,10 +52,33 @@
                 </div>
                 <input type="button" class="btn btn-primary" value="send">
             </form>
-
         </div>
     </div>
 </section>
 
+
+<!-- stats -->
+<section class="stats">
+    <div class="container">
+        <h3 class="stats-heading text-center my-1">
+            Welcome to the best platform for building 
+            applciations of all types with modern achitecture and scaling.
+        </h3>
+
+        <div class="grid grid-3 text-center my-4">
+            <div>
+                <i class="fas fa-server fa-3x"></i>
+                <h3>10,349,405</h3>
+                <p class="text-secondary">Deployments</p>
+            </div>
+            <div><i class="fas fa-upload fa-3x"></i>
+                <h3>987TB</h3>
+                <p class="text-secondary">Published</p></div>
+            <div><i class="fas fa-project-diagram fa-3x"></i>
+                <h3>2,243,234</h3>
+                <p class="text-secondary">Projects</p></div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
